@@ -1,0 +1,89 @@
+
+    .column {
+      float: left;
+      padding: 10px;
+    }
+    .left {
+      width: 50%;
+    }
+    .right {
+      width: 50%;
+    }
+
+    .projectBlockLeft {
+      width: 30%;
+    }
+    .projectBlockRight {
+      width: 70%;
+    }
+
+    .row {
+      display: flex;
+      gap: 20px;
+    }
+    .banner {
+      display: flex;
+      width: auto;
+      height: 50vh;
+      background-size: cover;
+      background-position: center;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(60, 54, 54, 0) 30%,
+           rgba(60, 54, 54, 0.5) 60%,
+           rgb(60, 54, 54) 90%
+            
+        ),
+        url("images/webdevbanner.webp");
+    }
+    .header {
+      color: white;
+      padding: 10px;
+      font-size: 400%;
+      text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000, -2px 2px 0 #000,
+        2px 2px 0 #000;
+    }
+    .projectHeader {
+      font-size: 250%;
+      color: white;
+      padding: 10px;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+    
+    .mainBackground {
+      background-image: linear-gradient(rgb(60, 54, 54), rgb(45, 14, 68));
+      height: 100vh;
+      width: auto;
+    }
+    .body {
+      margin: 0;
+    }
+
+    .projectBlock {
+      border: 3px solid black;
+      height: 25vh;
+      width: 40vw;
+      display: block;
+      margin: 10px;
+    }
+
+    .projectBlockImage {
+      height: 20vh;
+      width: 10vw;
+      border: solid 3px;
+      border-color: #000000;
+      margin: auto;
+      
+    }
+
+    .projectBlocklinkheading {
+      color:white;
+      font-size: 150%;
+    }
+
+    .projectBlockDescription {
+      color: white;
+      font-size: 110%;
+    }
+

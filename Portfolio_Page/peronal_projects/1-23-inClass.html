@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables and Interactivity</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th {
+        background-color: aqua;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Tables and Interactivity</h1>
+    <table>
+        <caption>Product Inventory Dashboard</caption>
+        <colgroup>
+            <col span ="3" style="background-color: lightgreen;">
+        </colgroup>
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Stock Status</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <details>
+                    <summary>Chicken</summary>
+                    <dialog open>bird</dialog>
+                    </details>
+                </td>
+                <td>$2</td>
+                <td>25 in stock</td>
+            </tr>
+            <tr>
+                <td>
+                    <details>
+                    <summary>Beef</summary>
+                    <dialog open>Cow</dialog>
+                    </details>
+                </td>
+                <td>$5</td>
+                <td>25 in stock</td>
+            </tr>
+            <tr>
+                <td>
+                    <details>
+                    <summary>Pork</summary>
+                    <dialog open>Pig</dialog>
+                    </details>
+                </td>
+                <td>$4</td>
+                <td>25 in stock</td>
+            </tr>
+            <tr>
+                <td>
+                    <details>
+                    <summary>Eggs</summary>
+                    <dialog open>bird</dialog>
+                    </details>
+                </td>
+                <td>$4</td>
+                <td>25 in stock</td>
+            </tr>
+            <tr>
+                <td>
+                    <details>
+                    <summary>Salamon</summary>
+                    <dialog open>fish</dialog>
+                    </details>
+                </td>
+                <td>$6</td>
+                <td>25 in stock</td>
+            </tr>
+            <tr>
+                <td>
+                    <details>
+                    <summary>Mutton</summary>
+                    <dialog open>sheep</dialog>
+                    </details>
+                </td>
+                <td>$5</td>
+                <td>25 in stock</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Totals</td>
+                <td>NA</td>
+                <td>150 items in stock</td>
+            </tr>
+        </tfoot>
+    <table>
+    
+  </body>
+</html>
