@@ -1,0 +1,158 @@
+
+* {
+  color: white;
+}
+    
+.column {
+  float: left;
+  padding: 10px;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+
+.projectBlockLeft {
+  width: 30%;
+}
+.projectBlockRight {
+  width: 70%;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 50vh;
+}
+
+.background{
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(60, 54, 54, 0) 10%,
+        rgba(60, 54, 54, 0.5) 30%,
+        rgb(60, 54, 54) 50%,
+        rgb(45, 14, 68) 100%
+        ),
+    url("images/webdevbanner.jpg");
+}
+
+.header {
+  display: block;
+  /* color: white; */
+  padding: 10px;
+  font-size: 400%;
+  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+.projectHeader {
+  margin-top: 0;
+  font-size: 250%;
+  /* color: white; */
+  padding: 10px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+.body {
+  margin: 0;
+}
+
+.projectBlock {
+  border: 3px solid black;
+  min-height: 25vh;
+  min-width: 40vw;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 10px;
+}
+
+.projectBlockImage {
+  max-height: 20vh;
+  max-width: 10vw;
+  height: auto;
+  width: auto;
+  border: solid 3px;
+  border-color: #000000;
+  margin: auto;
+  
+}
+
+.projectBlocklinkheading {
+  /* color:white; */
+  font-size: 150%;
+}
+
+.projectBlockDescription {
+  /* color: white; */
+  font-size: 110%;
+}
+
+.navLinks {
+  display: block;
+  /* color: white; */
+  font-size: 130%;
+  padding: 10px;
+}
+
+.aboutMe {
+  padding-left: 20px;
+  /* color: white; */
+  font-size: 115%;
+}
+
+.aboutMeHeader{
+  margin-top: 0;
+  font-size: 250%;
+  /* color: white; */
+  padding-left: 17px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.githubLink{
+  color: rgb(14, 227, 18)
+}
+
+.footerStyle{
+  /* color: white; */
+  font-size: 110%;
+}
+
+.navigationBar{
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: max-content;
+  padding: 10px;
+  border: solid 3px;
+  border-color: black;
+  background-color: rgb(88, 88, 88); 
+  border-radius: 10px;
+  display: flexbox;
+}
+
+button{
+  color: black;
+  background-color: rgb(88, 88, 88); 
+  font-size: 90%;
+  
+}
+
+button.button:hover {
+  background-color: blue;
+}
+
+a:hover{
+  background-color: blue;
+}
