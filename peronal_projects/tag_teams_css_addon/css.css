@@ -1,0 +1,39 @@
+table {
+    width: 50vh;
+    max-width: 50vh;
+    display: block;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 18px;
+  }
+  th {
+    background-color: aqua;
+  }
+
+  /* new CSS */
+  h1 {
+    text-shadow:  
+    3px 3px 5px rgba(44, 85, 219, 0.7);
+    font-size: 300%;
+    letter-spacing: 3px;
+    line-height: 50%;
+    }
+
+
+  h2{
+    text-shadow:  1px 1px 2px #df1b1b;
+    font-size: 200%;
+    letter-spacing: 2px;
+  }
+
+  h3{
+    text-shadow:  1px 1px 2px #03b41d;
+    letter-spacing: 1px;
+  }
+
+  .tableCaption {
+    font-size: 70%;
+    padding-left: 14vw;
+  }
