@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables and Interactivity</title>
+    <link rel="stylesheet" href="css.css">
+  </head>
+  <body class="body backgroundMain">
+    <main>
+      <!-- article contains the written content of this page -->
+      <article class="center">
+        <header >
+            <h1>The New Apple.com  </h1>   
+        </header>
+        <div class="row navigationBar ">
+          <img src="../../images/applelogo.png" alt="This is our logo" width="18" height="20" class="navImage">
+          <nav class="navButton">
+            
+            <button class="navButton"><a href="#about" class="navLinks">About</a></button>
+            <button class="navButton"><a href="#contact" class="navLinks">Contact Us</a></button>
+            <button class="navButton"><a href="#inventory" class="navLinks">Inventory</a></button>
+            <button class="navButton"><a href="#order" class="navLinks">Order</a></button>
+          </nav>
+        </div>
+    
+        <!-- contains the 'about' information' -->
+        <section id="about" >
+          <h2>About Us</h2>
+          <h3>Our Story</h3>
+          <p>The New Apple.com was born out of a simple idea in a classroom at Christ the Teacher: to provide a more affordable yet comparable <br>
+          alternative to the iPhone. What started as a small project quickly grew into a full-fledged business, driven by a passion for innovation <br>
+            and accessibility. In just one week, our team worked tirelessly to bring this vision to life—researching, designing, and refining our <br>
+            approach to ensure that customers receive a high-quality experience without the premium price tag. Our mission is to challenge <br>
+            the status quo, making cutting-edge technology more accessible to everyone. This is just the beginning of our journey, and we're excited<br>
+            to grow, improve, and continue delivering value to our customers.</p>
+          <h3>Our Mission</h3>
+          <p>At The New Apple.com, our mission is to challenge the dominance of Apple by offering high-quality, innovative technology at a fraction of <br>
+          the cost. We believe that cutting-edge devices shouldn't come with an exorbitant price tag, and we are committed to providing consumers <br>
+          with a smarter, more affordable alternative. By leveraging efficiency, creativity, and a passion for technological advancement, we aim to <br>
+          disrupt the market and establish ourselves as a new titan in the industry. Our goal is not just to compete with Apple but to redefine the <br>
+          landscape of modern technology—making premium features accessible to everyone, not just those who can afford the hefty price. We are driven <br>
+          by ambition, fueled by innovation, and determined to reshape the future of tech. This is only the beginning, and we are ready to take on <br>
+          the giants.</p>
+        <!-- end 'about' section -->
+        </section>
+  
+      </article>
+      <div class="sectionLine"></div>
+      <!-- contains the 'inventory' information' -->
+      <section id="inventory" class="center">
+        <h2>Product Inventory</h2>
+        <table class="center">
+
+          <colgroup>
+            <col span="3" style="background-color: rgb(217, 223, 217);" />
+          </colgroup>
+          <!-- table header -->
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Stock Status</th>
+            </tr>
+          </thead>
+          <!-- contains the 'about information' -->
+          <tbody>
+            <tr>
+              <td>
+                <details>
+                  <summary>iPhone 16</summary>
+                  <!-- info popup -->
+                  <dialog open>
+                    <p>iPhone 16 Series (2024):</p>
+                    <p>Models: iPhone 16, iPhone 16 Plus, iPhone 16 Pro, iPhone 16 Pro Max.</p>
+                    <p>Display: Super Retina XDR OLED; sizes range from 6.1 inches to 6.9 inches.</p>
+                    <p>Camera: Advanced camera systems with 48MP main sensors; Pro models offer enhanced features like 4K120 fps in Dolby Vision and spatial photos/videos.</p>
+                    <p>Processor: A18 Bionic chip; A18 Pro chip in Pro models.</p>
+                    <p>Storage Options: 128GB, 256GB, 512GB; up to 1TB on Pro models.</p>
+                    <p>Notable Features: Introduction of a new Camera Control button, enhanced AI capabilities branded as Apple Intelligence, and improved battery life. </p>
+                  </dialog>
+                </details>
+              </td>
+              <td>$2</td>
+              <td>25 in stock</td>
+            </tr>
+            <tr>
+              <td>
+                <details>
+                  <summary>iPhone 15</summary>
+                  <!-- info popup -->
+                  <dialog open>
+                    <p>iPhone 15 Series (2023):</p>
+                    <p>Models: iPhone 15, iPhone 15 Plus, iPhone 15 Pro, iPhone 15 Pro Max.</p> 
+                      <p>Display: Super Retina XDR OLED; sizes range from 6.1 inches to 6.7 inches.</p> 
+                      <p>Camera: Further improvements in camera technology, including enhanced computational photography and improved telephoto capabilities on Pro models.</p> 
+                      <p>Processor: A17 Bionic chip.</p> 
+                      <p>Storage Options: Up to 1TB on Pro models.</p> 
+                      Notable Features: Introduction of USB-C connectivity, improved battery efficiency, and advanced AI features.</p>
+                  </dialog>
+                </details>
+              </td>
+              <td>$5</td>
+              <td>25 in stock</td>
+            </tr>
+            <tr>
+              <td>
+                <details>
+                  <summary>iPhone 14</summary>
+                  <!-- info popup -->
+                  <dialog open>
+                    <p>iPhone 14 Series (2022):</p>
+                    <p>Models: iPhone 14, iPhone 14 Plus, iPhone 14 Pro, iPhone 14 Pro Max.</p>
+                    <p>Display: Super Retina XDR OLED; sizes range from 6.1 inches to 6.7 inches.</p>
+                    <p>Camera: Enhanced camera systems with improved low-light performance; Pro models feature a 48MP main sensor.</p>
+                    <p>Processor: A16 Bionic chip in Pro models; A15 Bionic in standard models.</p>
+                    <p>Storage Options: Up to 1TB on Pro models.</p>
+                    <p>Notable Features: Dynamic Island on Pro models, Always-On display, satellite connectivity for emergency SOS.</p>
+                  </dialog>
+                </details>
+              </td>
+              <td>$4</td>
+              <td>25 in stock</td>
+            </tr>
+            <tr>
+              <td>
+                <details>
+                  <summary>iPhone 13</summary>
+                  <!-- info popup -->
+                  <dialog open>
+                    <p>iPhone 13 Series (2021):</p>
+                    <p>Models: iPhone 13 mini, iPhone 13, iPhone 13 Pro, iPhone 13 Pro Max.</p>
+                    <p>Display: Super Retina XDR OLED; sizes range from 5.4 inches (mini) to 6.7 inches (Pro Max).</p>
+                    <p>Camera: Improved dual-camera system on iPhone 13 models; enhanced triple-camera system with sensor-shift stabilization on Pro models.</p>
+                    <p>Processor: A15 Bionic chip.</p>
+                    <p> Storage Options: Up to 1TB on Pro models.</p>
+                    <p>Notable Features: Smaller notch, ProMotion display (120Hz) on Pro models, improved battery life.</p>
+                  </dialog>
+                 </details>
+            
+              </td>
+              <td>$4</td>
+              <td>25 in stock</td>
+            </tr>
+            <tr>
+              <td>
+                <details>
+                  <summary>iPhone 12</summary>
+                  <!-- info popup -->
+                  <dialog open>
+                    <p>iPhone 12 Series (2020):
+                    <p>Models: iPhone 12 mini, iPhone 12, iPhone 12 Pro, iPhone 12 Pro Max.</p>
+                    <p>Display: Super Retina XDR OLED; sizes range from 5.4 inches (mini) to 6.7 inches (Pro Max).</p>
+                    <p>Camera: Dual-camera system on iPhone 12 models; triple-camera system with LiDAR Scanner on Pro models.</p>
+                    <p>Processor: A14 Bionic chip.</p>
+                    <p>Storage Options: Up to 512GB on Pro models.</p>
+                    <p>Notable Features: 5G connectivity, Ceramic Shield front cover, MagSafe support.</p>
+                  </dialog>
+                </details>
+              
+              </td>
+              <td>$6</td>
+              <td>25 in stock</td>
+            </tr>
+            <tr>
+              <td>
+                <details>
+                  <summary>iPhone 11</summary>
+                  <!-- info popup -->
+                  <dialog open>
+                    <p>iPhone 11 (2019):</p>
+                    <p>Display: 6.1-inch Liquid Retina HD LCD with a resolution of 1792x828 pixels at 326 ppi.</p>
+                    <p>Camera: Dual 12MP system with Ultra Wide and Wide lenses; 12MP front camera.</p>
+                    <p>Processor: A13 Bionic chip.</p>
+                    <p>Storage Options: 64GB, 128GB, 256GB.</p>
+                    <p>Notable Features: Face ID, Haptic Touch, IP68 water and dust resistance.</p>
+                  </dialog>
+                </details>
+              </td>
+              <td>$5</td>
+              <td>25 in stock</td>
+            </tr>
+          </tbody>
+          <!-- table footer -->
+          <tfoot>
+            <tr>
+              <td>Totals</td>
+              <td>NA</td>
+              <td>150 items in stock</td>
+            </tr>
+          </tfoot>
+        </table>
+        <p class="tableCaption">*Click Arrow For Item Details</p>
+      <!-- end 'inventory' section -->
+      </section>
+      <div class="sectionLine"></div>
+      <!-- contains the 'order' information' -->
+      <section id="order" class="center">
+        <h2>Order Form for iPhone</h2>
+        <form action="https://www.apple.com/">
+          <fieldset>
+            
+            <legend>Order Information:</legend>
+            <!-- selectable dropdown    -->
+            <label for="phones">Select an iPhone:</label>
+            <select name="phones" id="phones">
+              <option value="iphone 16">iPhone 16</option>
+              <option value="iphone 15">iPhone 15</option>
+              <option value="iphone 14">iPhone 14</option>
+              <option value="iphone 13">iPhone 13</option>
+              <option value="iphone 12">iPhone 12</option>
+              <option value="iphone 11">iPhone 11</option>
+            </select>
+          
+            <!-- fill out fields -->
+            <p><label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"></p>
+            <p ><label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname"></p>
+            <p><label for="lname">Email:</label>
+              <input type="email" id="email" name="email"></p>
+            <p><label for="credit">Credit Card Number:</label>
+              <input type="text" id="email" name="email"></p>
+            <p ><label for="adress">Adress:</label>
+              <input type="text" id="email" name="email"></p>
+            <p ><label for="adress">Delivery Instructions:</label></p>
+              <textarea id="adress" name="adress" rows="4" cols="50"></textarea>
+            <!-- submit button -->
+            <p><button type="submit" value="Submit" class="checkoutButton">Checkout</button> </p>
+          
+          </fieldset>
+        </form>
+      <!-- end 'order' section -->
+      </section>
+      <div class="sectionLine"></div>
+      <section id="contact" class="center">
+        <h4>How to Contact Us</h4>
+        <h5>By Phone</h5>
+        1-800-MY-APPLE (1-800-692-7753)
+        <h5>By Email</h5>
+        apple@apple.com
+      <!-- end 'contact' section -->
+      </section>
+    </main>
+    <footer class="row">
+        <h4>Disclosure: The New Apple.com is not liable for anything</h4>
+        <h4>Content Generated by ChatGPT</h4>
+        <h4>Team 5: Matthew Schmiesing, Juan Diego Garcia, Noah Parkhurst</h4>
+        <h4><a href="https://github.com/matthewschmiesing/CSC351">GitHub</a></h4>
+    </footer>
+  </body>
+</html>
+
