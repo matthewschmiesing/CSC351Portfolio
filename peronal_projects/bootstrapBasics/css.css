@@ -1,0 +1,219 @@
+/* Table Styles */
+/* These have been removed and bootstap items are being used instead */
+
+/* Header Styles */
+h2 {
+    text-shadow: 1px 1px 2px rgb(255, 255, 255); /* Add shadow to h2 */
+    font-size: 200%; /* Set font size to 200% */
+    letter-spacing: 2px; /* Increase letter spacing */
+}
+
+h3 {
+    text-shadow: 1px 1px 2px rgb(255, 255, 255); /* Add shadow to h3 */
+    letter-spacing: 1px; /* Increase letter spacing */
+}
+
+/* Caption Style */
+.tableCaption {
+    font-size: 70%; /* Set smaller font size for table caption */
+}
+
+/* Background Styles */
+.backgroundMain {
+    background-color: rgb(0, 0, 0); /* Set background color to black */
+    margin: auto; /* Center the background */
+    background-size: cover; /* Cover the area with background */
+    background-position: center; /* Center the background image */
+    justify-content: center; /* Center content within the body */
+}
+
+/* Body Styles */
+body {
+    margin: 0; /* Remove body margin */
+    padding: 0; /* Remove body padding */
+}
+
+/* Main Content Area */
+main {
+    width: 80%; /* Set width to 80% of viewport */
+    margin: 40px auto; /* Center content horizontally with margin */
+    padding: 20px; /* Add padding inside main */
+    background: #bcc5cb; /* Set background color */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow around main */
+    border-radius: 10px; /* Round the corners of main */
+}
+
+/* Centered Content */
+.center {
+    text-align: center; /* Center-align text */
+    margin: auto; /* Center content horizontally */
+}
+
+/* Footer Styles */
+footer {
+    padding-left: 20px; /* Add padding on the left */
+    color: white; /* Set text color to white */
+}
+
+/* Main Header Style */
+h1 {
+    text-shadow: 
+    1px 1px 2px rgba(0, 0, 0, 0.7), /* Add shadow to header */
+    0 0 1em rgba(0, 0, 0, 0.7),
+    0 0 0.2em rgba(0, 0, 0, 0.7);
+    color: white; /* Set text color to white */
+    font-size: 5em; /* Set large font size */
+    letter-spacing: 5px; /* Increase letter spacing */
+    font-weight: 200%; /* Increase font weight */
+}
+
+/* Universal Font Style */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif; /* Set default font */
+}
+
+/* Navigation Links */
+.navLinks {
+    display: block; /* Make nav links block-level */
+    color: rgb(0, 0, 0); /* Set text color to black */
+    font-size: 130%; /* Increase font size */
+    padding: 10px; /* Add padding inside links */
+}
+
+/* Navigation Bar */
+.navigationBar {
+    top: 0; /* Position the navigation bar at the top */
+    position: fixed; /* Make the navigation bar fixed */
+    width: 100%; /* Set width to 100% of viewport */
+    left: 50%; /* Align left edge to the center */
+    transform: translateX(-50%); /* Center the navigation bar */
+    padding: 10px; /* Add padding */
+    background-color: rgb(255, 255, 255); /* White background */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center navigation items */
+    align-items: center; /* Vertically align items */
+}
+
+/* Navigation Button */
+.navButton {
+    background-color: rgb(255, 255, 255); /* White background for buttons */
+    font-size: 90%; /* Set smaller font size */
+    border: none; /* Remove border */
+}
+
+/* Navigation Image */
+.navImage {
+    padding-right: 10px; /* Add padding to the right */
+    width: 30px;
+    height: auto;
+}
+
+
+.navBarRow {
+    padding-left: 10%; /* Add padding to the left */
+    padding-right: 10%; /* Add padding to the right */
+    display: flex; /* Use flexbox for layout */
+    gap: 20px; /* Add space between items */
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 40px; /* Set line height for paragraphs */
+}
+
+/* Hover Effect on Links */
+a:hover {
+    color: blue; /* Change link color on hover */
+}
+
+/* Section Line Style */
+.sectionLine {
+    border-top: 3px solid black; /* Add top border */
+    margin-top: 10px; /* Add margin above section line */
+}
+
+/* Fieldset Style */
+fieldset {
+    border: none; /* Remove border from fieldset */
+}
+
+/* Dialog Box Styling */
+dialog {
+    position: fixed; /* Position dialog box fixed */
+    top: 50%; /* Center dialog vertically */
+    left: 60%; /* Center dialog horizontally */
+    transform: translate(-50%, -50%); /* Center the dialog */
+    padding: 20px; /* Add padding inside dialog */
+    border: none; /* Remove border from dialog */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+    background-color: white; /* Set background to white */
+    border-radius: 8px; /* Round corners of the dialog */
+}
+
+/* Hover Effect on Details */
+details:hover {
+    color: blue; /* Change color on hover */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Form Styles */
+form {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 8px; /* Round corners of the form */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    width: 100%; /* Set form width to 100% */
+    max-width: 90vh; /* Set maximum width to 90% of viewport height */
+    margin: auto; /* Center form horizontally */
+}
+
+/* Fieldset Padding */
+fieldset {
+    border: none; /* Remove border from fieldset */
+    padding: 0; /* Remove padding from fieldset */
+}
+
+/* Legend Style */
+legend {
+    font-size: 1.5rem; /* Set larger font size */
+    font-weight: bold; /* Make text bold */
+    color: #333; /* Set text color */
+    padding-bottom: 10px; /* Add space below the legend */
+}
+
+/* Label Styles */
+label {
+    font-size: 1rem; /* Set font size for labels */
+    margin-bottom: 5px; /* Add margin below labels */
+    display: block; /* Make labels block-level elements */
+}
+
+/* Input, Select, and Textarea Styles */
+input, select, textarea {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding inside fields */
+    margin: 8px 0 20px 0; /* Add margin around fields */
+    border: 2px solid #e1e3e4; /* Set border color */
+    border-radius: 4px; /* Round corners of fields */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Checkout Button Hover */
+.checkoutButton:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Textarea Styles */
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+textarea:focus {
+    background-color: #e1e3e4; /* Change background color on focus */
+}
+
+input:focus {
+    background-color: #e1e3e4; /* Change background color on focus */
+}
+
+  
