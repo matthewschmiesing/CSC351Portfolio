@@ -1,0 +1,87 @@
+body {
+    margin: 0; /* Remove body margin */
+    padding: 0; /* Remove body padding */
+    background-color: #070707; /* Set background color */
+    display: inline-flex;
+}
+
+header{
+   font-size: 130%;
+   margin-left: 10px;
+   margin-top: 0;
+   margin-bottom: 0;
+   
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 200%;
+
+}
+
+p {
+    font-size: 110%;
+}
+
+main {
+    margin: 15vh 1vw; /* Center content horizontally with margin */
+    border: solid black;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+
+    
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5vh;
+  }
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.box {
+    border-radius: 20px;
+    background-color: #a7b4bd;
+    padding: 50px;
+    border: solid, black;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.5); /* Add shadow around main */
+}
+
+
+
+.navigationBar {
+    top: 0; /* Position the navigation bar at the top */
+    position: fixed; /* Make the navigation bar fixed */
+    width: 100%; /* Set width to 100% of viewport */
+    left: 50%; /* Align left edge to the center */
+    transform: translateX(-50%); /* Center the navigation bar */
+    padding: 5px; /* Add padding */
+    background: #a7b4bd; /* White background */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Push header left, links right */
+    align-items: center; /* Vertically align items */
+    gap: 10px;
+    border: solid, black;
+}
+
+/* Navigation Button */
+.navButton {
+    background-color: #a7b4bd; /* White background for buttons */
+    font-size: 90%; /* Set smaller font size */
+    border: none; /* Remove border */
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.navLinks {
+    display: block; /* Make nav links block-level */
+    color: rgb(0, 0, 0); /* Set text color to black */
+    font-size: 110%; /* Increase font size */
+    padding: 10px; /* Add padding inside links */
+    font-style: none;
+}
