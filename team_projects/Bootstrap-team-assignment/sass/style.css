@@ -11917,6 +11917,13 @@ h1, .h1 {
   color: rgb(0, 0, 0); /* Set text color to black */
   font-size: 130%; /* Increase font size */
   padding: 10px; /* Add padding inside links */
+
+}
+
+.navLinks.active {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
 }
 
 /* Navigation Bar */
