@@ -11940,6 +11940,21 @@ h1, .h1 {
   border: none; /* Remove border */
 }
 
+.backToTopButton {
+  background-color: rgb(255, 255, 255); /* White background for buttons */
+  font-size: 110%; /* Set smaller font size */
+  border: none; /* Remove border */
+  text-decoration: underline;
+}
+
+.new-div {
+  height: 50px;
+}
+
+.backToTopButton:hover {
+  color: rgb(0, 0, 255); /* Change link color on hover */
+}
+
 /* Navigation Image */
 .navImage {
   padding-right: 10px; /* Add padding to the right */

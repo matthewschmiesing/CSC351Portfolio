@@ -1,0 +1,74 @@
+{
+    "iphone16": {
+      "title": "iPhone 16 Details",
+      "details": [
+        "iPhone 16 Series (2024):",
+        "Models: iPhone 16, iPhone 16 Plus, iPhone 16 Pro, iPhone 16 Pro Max.",
+        "Display: Super Retina XDR OLED; sizes range from 6.1 inches to 6.9 inches.",
+        "Camera: Advanced camera systems with 48MP main sensors; Pro models offer enhanced features like 4K120 fps in Dolby Vision and spatial photos/videos.",
+        "Processor: A18 Bionic chip; A18 Pro chip in Pro models.",
+        "Storage Options: 128GB, 256GB, 512GB; up to 1TB on Pro models.",
+        "Notable Features: Introduction of a new Camera Control button, enhanced AI capabilities branded as Apple Intelligence, and improved battery life."
+      ]
+    },
+    "iphone15": {
+      "title": "iPhone 15 Details",
+      "details": [
+        "iPhone 15 Series (2023):",
+        "Models: iPhone 15, iPhone 15 Plus, iPhone 15 Pro, iPhone 15 Pro Max.",
+        "Display: Super Retina XDR OLED; sizes range from 6.1 inches to 6.7 inches.",
+        "Camera: Further improvements in camera technology, including enhanced computational photography and improved telephoto capabilities on Pro models.",
+        "Processor: A17 Bionic chip.",
+        "Storage Options: Up to 1TB on Pro models.",
+        "Notable Features: Introduction of USB-C connectivity, improved battery efficiency, and advanced AI features."
+      ]
+    },
+    "iphone14": {
+      "title": "iPhone 14 Details",
+      "details": [
+        "iPhone 14 Series (2022):",
+        "Models: iPhone 14, iPhone 14 Plus, iPhone 14 Pro, iPhone 14 Pro Max.",
+        "Display: Super Retina XDR OLED; sizes range from 6.1 inches to 6.7 inches.",
+        "Camera: Enhanced camera systems with improved low-light performance; Pro models feature a 48MP main sensor.",
+        "Processor: A16 Bionic chip in Pro models; A15 Bionic in standard models.",
+        "Storage Options: Up to 1TB on Pro models.",
+        "Notable Features: Dynamic Island on Pro models, Always-On display, satellite connectivity for emergency SOS."
+      ]
+    },
+    "iphone13": {
+      "title": "iPhone 13 Details",
+      "details": [
+        "iPhone 13 Series (2021):",
+        "Models: iPhone 13 mini, iPhone 13, iPhone 13 Pro, iPhone 13 Pro Max.",
+        "Display: Super Retina XDR OLED; sizes range from 5.4 inches (mini) to 6.7 inches (Pro Max).",
+        "Camera: Improved dual-camera system on iPhone 13 models; enhanced triple-camera system with sensor-shift stabilization on Pro models.",
+        "Processor: A15 Bionic chip.",
+        "Storage Options: Up to 1TB on Pro models.",
+        "Notable Features: Smaller notch, ProMotion display (120Hz) on Pro models, improved battery life."
+      ]
+    },
+    "iphone12": {
+      "title": "iPhone 12 Details",
+      "details": [
+        "iPhone 12 Series (2020):",
+        "Models: iPhone 12 mini, iPhone 12, iPhone 12 Pro, iPhone 12 Pro Max.",
+        "Display: Super Retina XDR OLED; sizes range from 5.4 inches (mini) to 6.7 inches (Pro Max).",
+        "Camera: Dual-camera system on iPhone 12 models; triple-camera system with LiDAR Scanner on Pro models.",
+        "Processor: A14 Bionic chip.",
+        "Storage Options: Up to 512GB on Pro models.",
+        "Notable Features: 5G connectivity, Ceramic Shield front cover, MagSafe support."
+      ]
+    },
+    "iphone11": {
+      "title": "iPhone 11 Details",
+      "details": [
+        "iPhone 11 (2019):",
+        "Display: 6.1-inch Liquid Retina HD LCD with a resolution of 1792x828 pixels at 326 ppi.",
+        "Camera: Dual 12MP system with Ultra Wide and Wide lenses; 12MP front camera.",
+        "Processor: A13 Bionic chip.",
+        "Storage Options: 64GB, 128GB, 256GB.",
+        "Notable Features: Face ID, Haptic Touch, IP68 water and dust resistance."
+      ]
+    }
+  }
+  
