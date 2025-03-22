@@ -11,6 +11,8 @@
     <script src="addRemoveSection.js"></script>
     <script src="navHighlights.js"></script>
     <script src="formValidation.js"></script>
+    <script src="dynamicFeedback.js"></script>
+    <script src="localStorage.js"></script>
     <link rel="stylesheet" href="sass/style.css">
   </head>
 
@@ -248,13 +250,15 @@
             <p ><label for="lname">Last name:</label>
               <input type="text" id="lname" name="lname"></p>
             <p><label for="email">Email:</label>
-              <input type="text" id="email" name="email"></p>
+              <input type="email" id="email" name="email"></p>
+            <p><span id="emailError" class="error"></span></p>
             <p><label for="credit">Credit Card Number:</label>
               <input type="text" id="credit" name="credit"></p>
             <p ><label for="adress">Adress:</label>
               <input type="text" id="address" name="address"></p>
             <p ><label for="adress">Delivery Instructions:</label></p>
-              <textarea id="delIns" name="delIns" rows="4" cols="50"></textarea>
+              <textarea id="delIns" name="delIns" rows="4" cols="50" maxlength="300"></textarea>
+              <div id="charCounter">300 characters remaining</div>
             <!-- submit button -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Checkout
