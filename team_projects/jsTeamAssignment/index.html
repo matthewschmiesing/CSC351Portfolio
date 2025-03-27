@@ -13,6 +13,7 @@
     <script src="formValidation.js"></script>
     <script src="dynamicFeedback.js"></script>
     <script src="localStorage.js"></script>
+    <script src="tableAdditions.js"></script>
     <link rel="stylesheet" href="sass/style.css">
   </head>
 
@@ -62,74 +63,80 @@
       <!-- contains the 'inventory' information' - These are Matt's table changes -->
       <section id="inventory" class="center">
         <h2>Product Inventory</h2>
-        <table class=" center table table-striped table-hover mt-3 text-center">
-            <thead class="table-dark">
-                <tr>
-                    <th>Name</th>
-                    <th>Price</th>
-                    <th>Stock Status</th>
-                    <th>Details</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>iPhone 16</td>
-                    <td>$2</td>
-                    <td>25 in stock</td>
-                    <td>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone16Modal">View</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>iPhone 15</td>
-                    <td>$5</td>
-                    <td>25 in stock</td>
-                    <td>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone15Modal">View</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>iPhone 14</td>
-                    <td>$4</td>
-                    <td>25 in stock</td>
-                    <td>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone14Modal">View</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>iPhone 13</td>
-                    <td>$4</td>
-                    <td>25 in stock</td>
-                    <td>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone13Modal">View</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>iPhone 12</td>
-                    <td>$6</td>
-                    <td>25 in stock</td>
-                    <td>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone12Modal">View</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>iPhone 11</td>
-                    <td>$5</td>
-                    <td>25 in stock</td>
-                    <td>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone11Modal">View</button>
-                    </td>
-                </tr>
-            </tbody>
-            <tfoot class="table-secondary">
-                <tr>
-                    <td>Totals</td>
-                    <td>NA</td>
-                    <td>150 items in stock</td>
-                    <td></td>
-                </tr>
-            </tfoot>
-        </table>
+        <!--Replace the entire table HTML with everything below-->
+
+      <button class="btn btn-info mb-3" onclick="tableSortModel()" id="modelSort">Sort by Model</button>
+      <button class="btn btn-info mb-3" onclick="tableSortPrice()" id="priceSort">Sort by Price</button>
+      <button class="btn btn-info mb-3" onclick="tableSortStock()" id="stockSort">Sort by Stock</button>
+      <table class=" center table table-striped table-hover mt-3 text-center" id="productTable">
+          <thead class="table-dark">
+              <tr>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Stock Status</th>
+                  <th>Details</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>iPhone 16</td>
+                  <td>$2</td>
+                  <td>15 in stock</td>
+                  <td>
+                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone16Modal">View</button>
+                  </td>
+              </tr>
+              <tr>
+                  <td>iPhone 15</td>
+                  <td>$5</td>
+                  <td>12 in stock</td>
+                  <td>
+                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone15Modal">View</button>
+                  </td>
+              </tr>
+              <tr>
+                  <td>iPhone 14</td>
+                  <td>$4</td>
+                  <td>95 in stock</td>
+                  <td>
+                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone14Modal">View</button>
+                  </td>
+              </tr>
+              <tr>
+                  <td>iPhone 13</td>
+                  <td>$4</td>
+                  <td>41 in stock</td>
+                  <td>
+                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone13Modal">View</button>
+                  </td>
+              </tr>
+              <tr>
+                  <td>iPhone 12</td>
+                  <td>$6</td>
+                  <td>2 in stock</td>
+                  <td>
+                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone12Modal">View</button>
+                  </td>
+              </tr>
+              <tr>
+                  <td>iPhone 11</td>
+                  <td>$5</td>
+                  <td>7 in stock</td>
+                  <td>
+                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iphone11Modal">View</button>
+                  </td>
+              </tr>
+          </tbody>
+          <tfoot class="table-secondary">
+              <tr>
+                  <td>Totals</td>
+                  <td>NA</td>
+                  <td>172 items in stock</td>
+                  <td></td>
+              </tr>
+          </tfoot>
+      </table>
+      <button class="btn btn-info mb-3" onclick="addTable()">Add phone</button>
     
         <!-- Expandable Section -->
         <button class="btn btn-info mb-3" data-bs-toggle="collapse" data-bs-target="#moreInfo">Show More</button>
